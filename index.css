@@ -1,0 +1,131 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url('url-da-imagem-de-fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+  .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  }
+
+  header img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  header h1 {
+    font-family: 𝕱𝖗𝖆𝖐𝖙𝖚𝖗 𝕭𝖔𝖑;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    z-index: 2;
+    background-color: #1d343a;
+  }
+
+  .login-card {
+    background-color: rgba(134, 133, 133, 0.1);
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .login-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .login-card input[type="text"], .login-card input[type="password"], .login-card input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(44, 44, 44, 0.2);
+    color: #fff;
+  }
+
+  .login-card input::placeholder {
+    color: #ddd;
+  }
+
+  .login-card button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #295383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .login-card a {
+    color: #bbb;
+    font-size: 0.9rem;
+    text-decoration: none;
+    
+  }
+
+  .social-login {
+    margin-top: 20px;
+  }
+
+  .social-login button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+ 
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+  }
+
+  footer a {
+    color: #bbb;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
