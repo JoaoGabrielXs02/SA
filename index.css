@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
   }
-  
 
   .background-overlay {
     position: absolute;
@@ -20,7 +19,6 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
   }
-  
   
   header {
     display: flex;
@@ -43,7 +41,6 @@ body {
     margin: 0;
   }
 
-  
   .login-container {
     display: flex;
     justify-content: center;
@@ -62,7 +59,35 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 
+  .cadastro-card {
+    background-color: rgba(134, 133, 133, 0.1);
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .validar-card {
+    background-color: rgba(134, 133, 133, 0.1);
+    padding: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
   .login-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .cadastro-card h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .validar-card h2 {
     font-size: 2rem;
     margin-bottom: 20px;
   }
@@ -77,7 +102,35 @@ body {
     color: #fff;
   }
 
+  .cadastro-card input[type="text"], .cadastro-card input[type="password"], .cadastro-card input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(44, 44, 44, 0.2);
+    color: #fff;
+  }
+
+  .validar-card input[type="text"], .validar-card input[type="password"], .validar-card input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(44, 44, 44, 0.2);
+    color: #fff;
+  }
+
   .login-card input::placeholder {
+    color: #ddd;
+  }
+
+  .cadastro-card input::placeholder {
+    color: #ddd;
+  }
+
+  .validar-card input::placeholder {
     color: #ddd;
   }
 
@@ -93,11 +146,46 @@ body {
     cursor: pointer;
   }
 
+  .cadastro-card button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #295383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .validar-card button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #295383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
   .login-card a {
     color: #bbb;
     font-size: 0.9rem;
     text-decoration: none;
-    
+  }
+
+  .cadastro-card a {
+    color: #bbb;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  .validar-card a {
+    color: #bbb;
+    font-size: 0.9rem;
+    text-decoration: none;
   }
 
   .social-login {
@@ -112,8 +200,6 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-
- 
   
   footer {
     text-align: center;
